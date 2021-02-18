@@ -15,6 +15,14 @@ int main()
    //Read the Value of N using scanf statement
    //Read the array elements using for loop and scanf statment
    //Print the array elements in using printf statement
+   int N;
+   int arr[6];
+   int i;
+   printf("Enter 6 integers\n");
+   for(i=0;i<6;i++)
+   scanf("%d", &arr[i]);
    
+   for(i=0;i<6;i++)
+   printf("%d\n", arr[i]);
    return 0; 
 }
